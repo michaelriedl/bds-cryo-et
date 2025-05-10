@@ -1,0 +1,12 @@
+[project]
+name = "bds-cryo-et"
+version = "0.1.0"
+description = "Pretraining and fine-tuning of deep learning models on Cryo-ET data using binomial data splitting augmentation."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.2.5",
+    "pytest>=8.3.5",
+    "scipy>=1.15.3",
+    "torch>=2.7.0",
+]
